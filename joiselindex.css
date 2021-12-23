@@ -1,0 +1,72 @@
+#title {
+    font-family: Helvetica;
+    font-size: 30px;
+    box-align: center;
+    color: rgba(250, 150, 70, 0.6);
+    text-align: center;
+    background-image: url("https://origami.me/wp-content/uploads/2016/12/tessellation.jpg")
+
+}
+
+#tribute-info {
+    font-family: Serif;
+    font-size: 25px;
+    color: rgba(250, 150, 70, 0.6)
+
+}
+
+#img-div {
+    display: flex;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image-div .pair {
+    flex-direction: row;
+}
+
+
+.image {
+    width: 500px;
+
+}
+
+body {
+    background-color: rgba(20, 74, 110, 0.5);
+    margin: 0% 20% 0% 20%;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgba(25, 60, 70, 0.7);
+    
+
+}
+
+
+
+@media (max-width: 768px) {
+    .img-div {
+        display: block;
+    }
+
+
+    .image {
+        display: block;
+        max-width: 300px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    
+    }
+}
